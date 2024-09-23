@@ -39,8 +39,6 @@ const DemoScreen = ({ }: Props) => {
 
       <h2>Token Data</h2>
       <pre>{JSON.stringify(auth.token, null, 2)}</pre>
-
-      <button onClick={() => auth.logout()}>Logout</button>
     </div>
   );
 };

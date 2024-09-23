@@ -1,6 +1,6 @@
-# ReactJS + Keycloak Example
+# ReactJS + Typescript Example
 
-This repository contains a small TypeScript application demonstrating how to detect presense of FineID card by using CSS API provided by mPollux card reader solution.
+This repository contains a small TypeScript application demonstrating how to detect presense of FineID card by using CSC API provided by mPollux card reader solution.
 
 ## Prerequisites 
 

@@ -58,7 +58,6 @@ const BasicLayout = () => {
           <div 
             style={{
               flex: 1,
-              backgroundImage: `url("${logo}")`,
               backgroundSize: "contain",
               backgroundRepeat: "no-repeat",
               width: 200,

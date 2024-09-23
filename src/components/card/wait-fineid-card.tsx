@@ -20,6 +20,14 @@ const WaitFineIdCard = ({ onCardDetected }: Props) => {
   const [ dots, setDots ] = useState(1);
   const [ loading, setLoading ] = useState(true);
 
+  /**
+   * Detects a presence of a FineId card by calling the version endpoint of the card reader.
+   * 
+   * Method checks response from the card reader CSC API. If the response is not ok, the reader error is set to true to 
+   * indicate that the card reader is not available. 
+   * 
+   * If the card reader is available, version resnpose hash algorithms are used to determine if the card is present or not.
+   */
   const detectCard = async () => {
     try {
       const response = await fetch(`${config.csc.url}/version`);

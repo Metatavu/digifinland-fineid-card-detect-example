@@ -1,0 +1,1 @@
+{ "version": "1.2", "httpMethods": "GET, POST", "contentTypes": "data, digest", "signatureTypes": "signature,signature-plain,cms,cms-pades,xml", "selectorAvailable": true, "hashAlgorithms": "", "signatureAlgorithms": "" }
